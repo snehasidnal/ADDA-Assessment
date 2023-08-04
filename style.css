@@ -1,0 +1,65 @@
+body {
+    font-family: Arial, sans-serif;
+    background: url(clubhouse.jpg)
+  }
+
+  .container {
+    max-width: 800px;
+    margin-top: 50px;
+  }
+
+  .booking-card {
+    background: linear-gradient(180deg, #ffffff 0%, #f4f9ff 100%);
+    border-radius: 15px;
+    padding: 25px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s;
+  }
+
+  .booking-card:hover {
+    transform: translateY(-5px);
+  }
+
+  .output-card {
+    background: linear-gradient(180deg, #ffffff 0%, #f4f9ff 100%);
+    border-radius: 15px;
+    padding: 25px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s;
+  }
+
+  .output-card:hover {
+    transform: translateY(-5px);
+  }
+
+  .btn-book {
+    width: 100%;
+  }
+
+  .output-msg {
+    margin-top: 20px;
+    padding: 15px;
+    border-radius: 10px;
+  }
+
+  .success-msg {
+    background: linear-gradient(135deg, #d4edda 0%, #f3ffe7 100%);
+    color: #155724;
+  }
+
+  .error-msg {
+    background: linear-gradient(135deg, #f8d7da 0%, #fff1f3 100%);
+    color: #721c24;
+  }
+
+  .form-label {
+    font-weight: bold;
+    color: #333;
+  }
+
+  .form-select, .form-control {
+    background-color: #f9f9f9;
+    border: none;
+    border-radius: 10px;
+    color: #555;
+  }
